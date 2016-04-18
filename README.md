@@ -4,12 +4,12 @@ In this project a given web-based application that reads RSS feeds is tested usi
 
 ## Access the project
 
-a live version of the project can be found at http://www.free4thefree.net/udacity/frontend-nanodegree-feedreader
+- a live version of the project can be found at http://www.free4thefree.net/udacity/frontend-nanodegree-feedreader
 
-alternatively,
-1. Download the repository
-2. Open index.html in a browser
-3. The Jasmine results appear at the bottom of the page
+- alternatively,
+  1. Download the repository
+  2. Open index.html in a browser
+  3. The Jasmine results appear at the bottom of the page
 
 ## Sources
 
