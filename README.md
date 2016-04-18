@@ -13,5 +13,5 @@ In this project a given web-based application that reads RSS feeds is tested usi
 
 ## Sources
 
-http://jasmine.github.io/2.1/introduction.html
-udacity discussion forum
+- http://jasmine.github.io/2.1/introduction.html
+- udacity discussion forum
