@@ -50,12 +50,12 @@ $(function() {
 
     // test selection of a different feed 
     describe('New Feed Selection', function(){
-        var firstTitle; // variable to store title after 1st loadFeed() call
-        var secondTitle;
+        var firstFeed; // variable to store title after 1st loadFeed() call
+        var secondFeed;
         // async call to load a new feed & set firstTitle variable
         beforeEach(function(done){
             loadFeed(1, function(){
-                firstTitle=$('.header-title').html();
+                firstFeed=$('.feed').html();
                 loadFeed(2, done); // load a different feed to check for change
             });
         });
@@ -64,10 +64,10 @@ $(function() {
         afterAll(function(done){
             loadFeed(0, done);
         });
-
+        
         it('should change the content', function(){
-            secondTitle=$('.header-title').html(); // set secondTitle variable 
-            expect(secondTitle).not.toBe(firstTitle); // compare firstTitle to secondTitle
+            secondFeed=$('.feed').html(); // set secondTitle variable 
+            expect(secondFeed).not.toBe(firstFeed); // compare firstTitle to secondTitle
         });
     });
 }());
